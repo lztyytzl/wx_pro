@@ -10,4 +10,18 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class='nav-tab'>
+    <view>
+      <image class='index-nav' src='../image/nav_home_icon.png'></image>
+      <button>主页</button>
+    </view>
+      <view>
+      <image class='index-nav' src='../image/nav_order_icon.png'></image>
+      <button>订单</button>
+    </view>
+    <view>
+      <image class='index-nav' src='../image/nav_user_icon.png'></image>
+      <button>我的</button>
+    </view>
+  </view>
 </view>

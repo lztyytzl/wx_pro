@@ -19,3 +19,10 @@
 .usermotto {
   margin-top: 200px;
 }
+.nav-tab{
+  flex-direction: row;
+}
+.index-nav{
+  width: 48px;
+  height: 48px;
+}
