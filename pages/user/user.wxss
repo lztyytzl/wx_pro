@@ -1,0 +1,48 @@
+page{
+   min-height: 100%;
+   background-color:#edebee;
+}
+.user-info{
+  width: 100%;
+  height: 280rpx;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  background-color: white;
+}
+.user-icon{
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  display: block;
+}
+.user-nickname{
+  width: 20%;
+  color: "#f0f0f0";
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.user-div-item{
+  width: 100%;
+  height: 20rpx;
+}
+.user-list-item{
+  widows: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 16px;
+  font-weight: 550;
+  color: "#393939";
+  vertical-align: middle;
+  background-color: white;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+}
+.user-list-item-icon{
+  width: 48rpx;
+  height: 48rpx;
+  margin-left:25rpx;
+  margin-right: 20rpx;
+  vertical-align: middle;
+}

@@ -1,0 +1,27 @@
+<view class='order_container'>
+  <view class='swiper-tab'>
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">全部
+    </view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ' '}}" data-current="1" bindtap="swichNav">有效单</view>
+    <view class="swiper-tab-list {{currentTab==2 ? 'on' : ' '}}" data-current="2" bindtap="swichNav">待支付</view>
+    <view class="swiper-tab-list {{currentTab==3 ? 'on' : ' '}}" data-current="3" bindtap="swichNav">退款单</view>
+  </view>
+  <swiper current="{{currentTab}}" class="swiper-option" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+
+    <swiper-item>
+      <view>全部订单</view>
+    </swiper-item>
+    
+    <swiper-item>
+      <view>有效订单</view>
+    </swiper-item>
+   
+    <swiper-item>
+      <view>待支付</view>
+    </swiper-item>
+
+    <swiper-item>
+      <view>退款单</view>
+    </swiper-item>
+  </swiper>
+</view>

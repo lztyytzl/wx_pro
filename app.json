@@ -1,12 +1,40 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/order/order",
+    "pages/user/user"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#4183c4",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#00BCD4",
+    "navigationBarTitleText": "音乐天涯",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color": "#707070",
+    "selectedColor": "#4183c4",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "image/nav_homed_icon.png",
+        "iconPath": "image/nav_home_icon.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "image/nav_ordered_icon.png",
+        "iconPath": "image/nav_order_icon.png",
+        "pagePath":"pages/order/order",
+        "enablePullDownRefresh": true,
+        "text": "订单"
+      },
+      {
+        "selectedIconPath": "image/nav_usered_icon.png",
+        "iconPath": "image/nav_user_icon.png",
+        "pagePath":"pages/user/user", 
+        "text": "我的"
+      }
+    ]
   }
 }

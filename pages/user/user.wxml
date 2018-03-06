@@ -1,0 +1,22 @@
+<view class='user-container'>
+  <view class='user-info'>
+    <image class='user-icon' src='../../image/default_icon.png'></image>
+    <text class='user-nickname'>昵称</text>
+  </view>
+  <view class='user-div-item'></view>
+  <view class='user-list-item'>
+    <image class='user-list-item-icon' src='../../image/yhq.png'></image>
+    全部订单</view>
+  <view class='user-div-item'></view>
+  <view class='user-list-item'>
+    <image class='user-list-item-icon' src='../../image/yhq.png'></image>
+    优惠券</view>
+  <view class='user-div-item'></view>
+  <view class='user-list-item'>
+    <image class='user-list-item-icon' src='../../image/yhq.png'></image>
+    常用旅客</view>
+  <view class='user-div-item'></view>
+  <view class='user-list-item'>
+    <image class='user-list-item-icon' src='../../image/yhq.png'></image>
+    联系客服</view>
+</view>
