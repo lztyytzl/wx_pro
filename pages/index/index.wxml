@@ -1,5 +1,16 @@
 <!--index.wxml-->
 <view class="container">
+  <scroll-view class='index-container'>
+      <view class='index-nav-item'>首页</view>
+      <view index-nav-item>服饰</view>
+      <view index-nav-item>百货</view>
+      <view index-nav-item>鞋包</view>
+      <view index-nav-item>母婴</view>
+      <view index-nav-item>食品</view>
+      <view index-nav-item>电器</view>
+      <view index-nav-item>手机</view>
+      <view index-nav-item>体育</view>
+  </scroll-view>
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
@@ -8,6 +19,6 @@
     </block>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+     
   </view>
 </view>

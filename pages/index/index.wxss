@@ -1,4 +1,8 @@
 /**index.wxss**/
+.index-index-nav-item{
+  width: 100%;
+  display: inline-block;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -16,9 +20,6 @@
   color: #aaa;
 }
 
-.usermotto {
-  margin-top: 200px;
-}
 .nav-tab{
   flex-direction: row;
 }
